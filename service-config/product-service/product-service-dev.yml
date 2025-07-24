@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/productdb_dev
+    username: dev_admin
+    password: dev_secret
+
+product:
+  cache-enabled: false
+  api-version: v1-dev
+
+logging:
+  level:
+    root: DEBUG
+    com.example.productservice: DEBUG

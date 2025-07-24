@@ -1,0 +1,17 @@
+server:
+  port: 8084
+
+spring:
+  datasource:
+    url: jdbc:postgresql://staging-db-server:5432/productdb_stage
+    username: stage_admin
+    password: stage_secret
+
+product:
+  cache-enabled: true
+  api-version: v1-stage
+
+logging:
+  level:
+    root: INFO
+    com.example.productservice: INFO

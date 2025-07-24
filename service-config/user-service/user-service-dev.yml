@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/userdb
+    username: admin
+    password: admin@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+user:
+  test:
+    property: from-native
