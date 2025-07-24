@@ -10,3 +10,8 @@ spring:
 user:
   test:
     property: from-native
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
